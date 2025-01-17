@@ -4,18 +4,59 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ededed;
     --foreground: #ededed;
   }
 }
 
+@font-face {
+  font-family: 'Gotham';
+  src: url("/fonts/gotham-family/Gotham-Medium.otf");
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url("/fonts/gotham-family/Gotham-Bold.otf");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url("/fonts/gotham-family/Gotham-Light.otf");
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(var(--background-end-rgb))
+  )
+  rgb(var(--background-start-rgb));
+  font-family: 'Gotham';
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.bold,
+strong {
+  font-weight: 700;
+}
+
+.light {
+  font-weight: 300;
 }
