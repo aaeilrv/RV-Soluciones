@@ -1,6 +1,7 @@
 "use client";
-/*import React, {FC} from "react";
-import Unicasa from "../assets/brands/Unicasa.png"
+import React, {FC} from "react";
+
+/*import Unicasa from "../assets/brands/Unicasa.png"
 import Bosch from "../assets/brands/Bosch.png"
 import Prosein from "../assets/brands/Prosein.png"
 import Taurel from "../assets/brands/Taurel.png"
