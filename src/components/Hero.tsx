@@ -1,7 +1,7 @@
 "use client";
 import React, {FC} from "react";
 import whiteLogo from "../assets/logo/RV-Soluciones-Blanco.png"
-import bannerPrincipal from "../img/Banner-Principal.jpg"
+import bannerPrincipal from "../assets/bg-images/Banner-Principal.jpg"
 import Image from 'next/image'
 
 const Hero: FC = () => {
