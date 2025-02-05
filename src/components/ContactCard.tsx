@@ -1,18 +1,18 @@
 "use client";
 import React, {FC} from "react";
-import bgImg from "../assets/bgImg.jpg"
+//import bgImg from "../assets/bgImg.jpg"
 
 
 const ContactCard: FC = () => {
 
-  const bgImage = {
+  /*const bgImage = {
     backgroundImage: `url(${bgImg})`,
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     height: "100%",
     width: "100%",
-  }
+  }*/
 
   return (
     <div className="flex items-center justify-center w-full">

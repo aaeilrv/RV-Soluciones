@@ -1,6 +1,5 @@
 "use client";
-import React, {FC} from "react";
-import Image from 'next/image'
+/*import React, {FC} from "react";
 import Unicasa from "../assets/brands/Unicasa.png"
 import Bosch from "../assets/brands/Bosch.png"
 import Prosein from "../assets/brands/Prosein.png"
@@ -19,7 +18,7 @@ const images = [
   { src: Servier, width: 60, alt: "Servier" },
   { src: LatCapital, width: 50, alt: "LatCapital" },
   { src: LaVoz, width: 50, alt: "LaVoz" },
-];
+];*/
 
 
 const Benefits: FC = () => {
