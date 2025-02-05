@@ -16,7 +16,7 @@ const Hero: FC = () => {
   }
 
   return (
-    <div style={bgImage} className="min-h-[300px] md:min-h-[500px] lg:min-h-[1000px] bg-[#b9cfdd] flex flex-col justify-center lg:justify-start items-left overflow-clip">
+    <div style={bgImage} className="min-h-[300px] md:min-h-[500px] lg:min-h-[1082px] bg-[#b9cfdd] flex flex-col justify-center lg:justify-start items-left overflow-clip">
       <div className="flex flex-col items-center lg:items-start lg:bg-none lg:ml-40 lg:mt-20 w-full">
         <div className="max-lg:hidden">
           <Image
