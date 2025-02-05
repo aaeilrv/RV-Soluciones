@@ -18,7 +18,7 @@ const images = [
   { src: Capi, width: 60, alt: "Capi" },
   { src: Servier, width: 60, alt: "Servier" },
   { src: LatCapital, width: 50, alt: "LatCapital" },
-  { src: LaVoz, width: 50, alt: "LaVoz" },
+  { src: LaVoz, width: 10, alt: "LaVoz" },
 ];
 
 
@@ -36,8 +36,7 @@ const References: FC = () => {
             key={index}
             src={image.src}
             alt={image.alt}
-            style={{ width: `${image.width}%` }}
-            className="w-full place-self-center sm:w-[80%] md:w-[60%] lg:w-[50%]"
+            className="w-full place-self-center sm:w-[80%] md:w-[60%] lg:w-[55%]"
           />
         ))}
       </div>
