@@ -8,7 +8,7 @@ const Hero: FC = () => {
 
   const bgImage = {
     backgroundImage: `url(${bannerPrincipal.src})`,
-    backgroundPosition: "center",
+    backgroundPosition: "left",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     height: "100%",
