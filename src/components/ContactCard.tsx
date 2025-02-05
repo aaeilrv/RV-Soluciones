@@ -2,8 +2,6 @@
 import React, {FC} from "react";
 import bgImg from "../assets/bgImg.jpg"
 
-const left_text = 'Obtenga la solución ideal para su proyecto de aire acondicionado y ventilación.'
-const right_text = 'Respire bienestar y viva tranquilo'
 
 const ContactCard: FC = () => {
 
@@ -33,8 +31,8 @@ const ContactCard: FC = () => {
             </p>
           </div>
           </div>
-        <div className="z-40 lg:-ml-40 bg-[#b8ccdc] lg:w-2/5 h-1/2 rounded-[26px]">
-          <h1 className="lg:text-[2.6rem]/[3.5rem] font-bold p-5 lg:px-8 lg:py-14 text-center">
+        <div className="z-40 lg:-ml-40 bg-[#b8ccdc] w-full md:w-2/5 lg:w-2/5 h-1/2 rounded-[26px]">
+          <h1 className="text-xl lg:text-[2.6rem]/[3.5rem] font-bold p-5 lg:px-8 lg:py-14 text-center">
             Respire bienestar<br/>
             y viva tranquilo
           </h1>

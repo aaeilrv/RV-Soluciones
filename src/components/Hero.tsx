@@ -1,13 +1,13 @@
 "use client";
 import React, {FC} from "react";
-import bgImg from "../assets/bgImg.jpg"
-import whiteLogo from "../assets/logo/white_logo.png"
+import whiteLogo from "../assets/logo/RV-Soluciones-Blanco.png"
+import bannerPrincipal from "../img/Banner-Principal.jpg"
 import Image from 'next/image'
 
 const Hero: FC = () => {
 
   const bgImage = {
-    backgroundImage: `url(${bgImg})`,
+    backgroundImage: `url(${bannerPrincipal.src})`,
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
@@ -16,8 +16,8 @@ const Hero: FC = () => {
   }
 
   return (
-    <div style ={bgImage} className="min-h-[300px] md:min-h-[500px] lg:min-h-[1000px] bg-[#b9cfdd] flex flex-col justify-center lg:justify-start items-left overflow-clip">
-      <div className="flex flex-col items-center lg:items-start lg:bg-none lg:ml-40 lg:-mt-10 w-full">
+    <div style={bgImage} className="min-h-[300px] md:min-h-[500px] lg:min-h-[1000px] bg-[#b9cfdd] flex flex-col justify-center lg:justify-start items-left overflow-clip">
+      <div className="flex flex-col items-center lg:items-start lg:bg-none lg:ml-40 lg:mt-20 w-full">
         <div className="max-lg:hidden">
           <Image
             src={whiteLogo}
@@ -26,8 +26,8 @@ const Hero: FC = () => {
             alt="Logo"
           />
         </div>
-        <div className="flex flex-col leading-10 lg:mt-14 items-center">
-          <h1 className="lg:mt-10 text-left font-bold hidden lg:text-[84px] lg:block">
+        <div className="flex flex-col leading-10 lg:mt-36 items-center">
+          <h1 className="hidden lg:block lg:mt-10 font-bold lg:text-[84px] text-left">
             Expertos en
             <span className="block mt-14"></span>
             climatización
