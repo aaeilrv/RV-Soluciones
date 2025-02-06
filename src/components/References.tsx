@@ -27,17 +27,14 @@ const References: FC = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full mt-10 md:mt-24">
       <h1 className="text-2xl md:text-2xl lg:text-5xl font-semibold text-[#718da9] text-center">
-        <span className="hidden md:block">Clientes que ya confían en nuestros servicios</span>
+        <span className="hidden md:block text-2xl md:text-[2rem] lg:text-[2.8rem]">Clientes que ya confían en nuestros servicios</span>
         <span className="block md:hidden text-2xl">Clientes que ya confían<br />en nuestros servicios</span>
       </h1>
-      <div className="grid grid-cols-3 lg:grid-cols-4 items-center gap-x-8 md:gap-x-2 gap-y-8 mt-6 lg:mt-16 w-5/6 lg:w-2/3 justify-center">
+      <div className="flex flex-wrap justify-center gap-2 w-[100%] lg:w-[60%] mt-4 md:mt-8">
         {images.map((image, index) => (
-          <Image
-            key={index}
-            src={image.src}
-            alt={image.alt}
-            className="w-full place-self-center sm:w-[80%] md:w-[60%] lg:w-[55%]"
-          />
+          <div className="h-18 lg:h-40 w-[30%] lg:w-60 flex items-center justify-center px-4 py-2" key={index}>
+            <Image src={image.src} alt={image.alt} /> 
+          </div>
         ))}
       </div>
     </div>

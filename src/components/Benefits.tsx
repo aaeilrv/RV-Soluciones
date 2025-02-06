@@ -8,9 +8,9 @@ import Soluciones from "../assets/icons/Soluciones.png";
 
 const images = [
   { src: Asesoramiento, title: "Le asesoramos:", text: "Un equipo de expertos le ayudará a elegir la mejor opción para su proyecto.", width: 60, alt: "Asesoramiento" },
-  { src: Innovacion, title: "Aplicando tendencias innovadoras:", text: "Para brindar el confort y la satisfacción que merecen nuestros clientes.",width: 60, alt: "Innovacion" },
-  { src: ServicioCompleto, title: "Soluciones a su medida:", text: "Adaptamos cada proyecto a sus necesidades específicas.",width: 60, alt: "ServicioCompleto" },
-  { src: Soluciones, title: "Servicio completo", text: "Le acompañamos desde el inicio hasta el final de su proyecto.",width: 60, alt: "Soluciones" },
+  { src: Innovacion, title: "Aplicando tendencias innovadoras:", text: "Para brindar el confort y la satisfacción que merecen nuestros clientes.", width: 60, alt: "Innovacion" },
+  { src: ServicioCompleto, title: "Soluciones a su medida:", text: "Adaptamos cada proyecto a sus necesidades específicas.", width: 60, alt: "ServicioCompleto" },
+  { src: Soluciones, title: "Servicio completo", text: "Le acompañamos desde el inicio hasta el final de su proyecto.", width: 60, alt: "Soluciones" },
 ];
 
 const Benefits: FC = () => {
@@ -29,7 +29,7 @@ const Benefits: FC = () => {
           disfrute del mejor confort y bienestar en su hogar o negocio.
         </span>
       </p>
-      <p className="text-black font-semibold text-center text-xl md:text-4xl py-2 md:py-4">¿Por qué elegirnos?</p>
+      <p className="text-black font-semibold text-center text-lg md:text-2xl lg:text-2xl  py-2 md:py-4">¿Por qué elegirnos?</p>
       <div className="lg:gap-4 flex flex-col lg:flex-row lg:px-10">
         {images.map((image, index) => (
           <div key={index} className="w-full sm:w-80 text-center text-black mt-10 flex flex-col items-center">
