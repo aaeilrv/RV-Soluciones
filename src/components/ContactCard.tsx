@@ -15,7 +15,7 @@ const ContactCard: FC = () => {
 
   return (
     <div className="flex items-center justify-center w-full">
-      <div className="flex mt-10 lg:mt-20 w-[1200px] justify-center relative sm:px-10 lg:px-0">
+      <div className="flex mt-10 lg:mt-20 w-[1200px] justify-center relative sm:px-10 lg:px-0 ">
         <div style={bgImage} className="hidden lg:flex lg:justify-start z-30 bg-[#e0dcdc] w-2/3 h-1/2 rounded-[36px] lg:min-h-[750px] relative">
           <div className="w-[43rem] flex flex-col gap-3 px-24 py-14">
             <h1 className="text-[2.7rem]/[3.5rem] font-bold text-white">
@@ -31,7 +31,7 @@ const ContactCard: FC = () => {
           </div>
         </div>
         <div className="z-40 lg:-ml-40 bg-[#b8ccdc] w-[400px] lg:w-2/5 h-1/2 rounded-[26px] min-h-[400px] lg:min-h-[750px]">
-          <h1 className="text-xl lg:text-[2.6rem]/[3.5rem] font-bold p-5 lg:px-8 lg:py-14 text-center text-[#353533]">
+          <h1 className="text-2xl lg:text-[2.6rem]/[3.5rem] font-bold p-5 lg:px-8 lg:py-14 text-center text-[#353533]">
             Respire bienestar<br/>
             y viva tranquilo
           </h1>

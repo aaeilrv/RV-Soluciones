@@ -35,7 +35,7 @@ const Hero: FC = () => {
           <h1 className="text-3xl md:text-5xl text-center font-bold lg:hidden w-3/4">
             Expertos en climatización
           </h1>
-          <p className="text-center font-light text-sm md:text-xl lg:text-4xl mt-2 lg:mt-10">
+          <p className="text-center font-light text-lg md:text-xl lg:text-4xl mt-2 lg:mt-10">
             su aliado para un clima perfecto
           </p>
         </div>

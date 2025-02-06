@@ -1,14 +1,14 @@
 "use client";
 import React, {FC} from "react";
-import Image from 'next/image'
-import Unicasa from "../assets/brands/Unicasa.png"
-import Bosch from "../assets/brands/Bosch.png"
-import Prosein from "../assets/brands/Prosein.png"
-import Taurel from "../assets/brands/Taurel.png"
-import Capi from "../assets/brands/Capi.png"
-import Servier from "../assets/brands/Servier.png"
-import LatCapital from "../assets/brands/LatCapital.png"
-import LaVoz from "../assets/brands/Lavoz.png"
+import Image from 'next/image';
+import Unicasa from "../assets/brands/Unicasa.png";
+import Bosch from "../assets/brands/Bosch.png";
+import Prosein from "../assets/brands/Prosein.png";
+import Taurel from "../assets/brands/Taurel.png";
+import Capi from "../assets/brands/Capi.png";
+import Servier from "../assets/brands/Servier.png";
+import LatCapital from "../assets/brands/LatCapital.png";
+import LaVoz from "../assets/brands/Lavoz.png";
 
 const images = [
   { src: Unicasa, width: 60, alt: "Unicasa" },
@@ -28,7 +28,7 @@ const References: FC = () => {
     <div className="flex flex-col items-center justify-center w-full mt-10 md:mt-24">
       <h1 className="text-2xl md:text-2xl lg:text-5xl font-semibold text-[#718da9] text-center">
         <span className="hidden md:block">Clientes que ya confían en nuestros servicios</span>
-        <span className="block md:hidden">Clientes que ya confían<br />en nuestros servicios</span>
+        <span className="block md:hidden text-2xl">Clientes que ya confían<br />en nuestros servicios</span>
       </h1>
       <div className="grid grid-cols-3 lg:grid-cols-4 items-center gap-x-8 md:gap-x-2 gap-y-8 mt-6 lg:mt-16 w-5/6 lg:w-2/3 justify-center">
         {images.map((image, index) => (
