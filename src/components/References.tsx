@@ -26,10 +26,10 @@ const References: FC = () => {
 
   return (
     <div className="flex flex-col items-center justify-center w-full mt-10 md:mt-24">
-      <h1 className="text-2xl md:text-2xl lg:text-5xl font-semibold text-[#718da9] text-center">
+      <h2 className="text-2xl md:text-2xl lg:text-5xl font-semibold text-[#718da9] text-center">
         <span className="hidden md:block text-2xl md:text-[2rem] lg:text-[2.8rem]">Clientes que ya confían en nuestros servicios</span>
         <span className="block md:hidden text-2xl">Clientes que ya confían<br />en nuestros servicios</span>
-      </h1>
+      </h2>
       <div className="flex flex-wrap justify-center gap-2 w-[100%] lg:w-[60%] mt-4 md:mt-8">
         {images.map((image, index) => (
           <div className="h-18 lg:h-40 w-[30%] lg:w-60 flex items-center justify-center px-4 py-2" key={index}>

@@ -5,6 +5,7 @@ import Asesoramiento from "../assets/icons/Asesoramiento.png";
 import Innovacion from "../assets/icons/Innovación.png";
 import ServicioCompleto from "../assets/icons/ServicioCompleto.png";
 import Soluciones from "../assets/icons/Soluciones.png";
+import { SecondaryButton } from "./Button";
 
 const images = [
   { src: Asesoramiento, title: "Le asesoramos:", text: "Un equipo de expertos le ayudará a elegir la mejor opción para su proyecto.", width: 60, alt: "Asesoramiento" },
@@ -16,9 +17,9 @@ const images = [
 const Benefits: FC = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full mt-10 md:mt-24">
-      <h1 className="text-2xl md:text-[2rem] lg:text-[2.8rem] font-semibold text-[#718da9] text-center">
+      <h2 className="text-2xl md:text-[2rem] lg:text-[2.8rem] font-semibold text-[#718da9] text-center">
         Beneficios
-      </h1>
+      </h2>
       <p className="text-black font-thin text-center md:text-2xl px-4 py-4 md:py-8">
         <span className="hidden md:block">
           Ofrecemos soluciones completas y personalizadas para que usted <br/>
@@ -30,16 +31,16 @@ const Benefits: FC = () => {
         </span>
       </p>
       <p className="text-black font-semibold text-center text-lg md:text-2xl lg:text-2xl  py-2 md:py-4">¿Por qué elegirnos?</p>
-      <div className="lg:gap-4 flex flex-col lg:flex-row lg:px-10">
+      <div className="lg:gap-4 flex flex-col lg:flex-row lg:px-10 mb-8 lg:mb-10">
         {images.map((image, index) => (
           <div key={index} className="w-full sm:w-80 text-center text-black mt-10 flex flex-col items-center">
             <Image src={image.src} alt={image.alt} className="w-25 mb-2 lg:mb-4" />
             <div className="lg:h-16 flex items-center justify-center">
-              <h1 className="text-lg md:text-2xl lg:text-2xl font-semibold mb-2 lg:mb-4 px-10 lg:px-0">
+              <p className="text-lg md:text-2xl lg:text-2xl font-semibold mb-2 lg:mb-4 px-10 lg:px-4">
                 {image.title}
-              </h1>
+              </p>
             </div>
-            <div className="lg:h-32 lg:flex items-start justify-center">
+            <div className="lg:h-32 lg:flex items-start justify-center lg:mt-4 lg:px-2">
               <p className="font-light md:text-xl lg:text-xl px-20 md:px-0 lg:px-10">
                 {image.text}
               </p>
@@ -47,6 +48,7 @@ const Benefits: FC = () => {
           </div>
         ))}
       </div>
+      <SecondaryButton onClick={() => console.log("hii")}>Solicite Información</SecondaryButton>
     </div>
   )
 }

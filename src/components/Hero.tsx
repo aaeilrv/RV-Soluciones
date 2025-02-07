@@ -3,6 +3,7 @@ import React, {FC} from "react";
 import whiteLogo from "../assets/logo/RV-Soluciones-Blanco.png"
 import bannerPrincipal from "../assets/bg-images/Banner-Principal.jpg"
 import Image from 'next/image'
+import { PrimaryButton } from "./Button";
 
 const Hero: FC = () => {
 
@@ -39,9 +40,7 @@ const Hero: FC = () => {
             su aliado para un clima perfecto
           </p>
         </div>
-        <div className="bg-white rounded-xl text-center mt-4 lg:mt-10 w-2/5 lg:w-[23rem] p-2 md:p-3 lg:p-5">
-          <p className="font-bold lg:text-[24px] text-black">Contáctenos</p>
-        </div>
+        <PrimaryButton onClick={() => console.log("hi")}>Contáctenos</PrimaryButton>
       </div>
     </div>
   )
