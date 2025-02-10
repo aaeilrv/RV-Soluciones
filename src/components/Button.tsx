@@ -20,3 +20,11 @@ export const SecondaryButton: FC<ButtonProps> = ({ onClick, children }) => {
     </button>
   );
 };
+
+export const ThirdButton: FC<ButtonProps> = ({ onClick, children }) => {
+  return (
+    <button onClick={onClick} className="bg-white hover:bg-[#f0f0f3] text-black py-2 px-4 md:px-8 md:py-4 text-sm md:text-lg lg:text-xl rounded-lg md:rounded-xl lg:rounded-2xl">
+      <p className="font-bold lg:text-[24px] text-black">{children}</p>
+    </button>
+  );
+};

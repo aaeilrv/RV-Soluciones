@@ -6,16 +6,18 @@ import References from "@/components/References";
 import Benefits from "@/components/Benefits";
 import Products from "@/components/Products";
 import Services from "@/components/Services";
+import Facts from "@/components/Facts";
 
 export default function Home() {
   return (
-    <div>
-      <Hero/> {/** Falta logo en mobile */}
-      <ContactCard/> {/** falta formulario + imágenes y ver qué se hace en mobile */}
+    <div className="bg-gray-100">
+      <Hero/>
+      <ContactCard/>
       <References/>
       <Benefits/>
-      <Products/>
       <Services/>
+      <Facts/>
+      <Products/>
     </div>
   );
 }

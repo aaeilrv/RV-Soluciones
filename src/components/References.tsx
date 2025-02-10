@@ -32,7 +32,7 @@ const References: FC = () => {
       </h2>
       <div className="flex flex-wrap justify-center gap-2 w-[100%] lg:w-[60%] mt-4 md:mt-8">
         {images.map((image, index) => (
-          <div className="h-18 lg:h-40 w-[30%] lg:w-60 flex items-center justify-center px-4 py-2" key={index}>
+          <div className="h-18 lg:h-40 w-[28%] lg:w-60 flex items-center justify-center px-4 py-2" key={index}>
             <Image src={image.src} alt={image.alt} /> 
           </div>
         ))}
