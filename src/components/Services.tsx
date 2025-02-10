@@ -12,7 +12,7 @@ const Services: FC = () => {
 
   return (
   <div className="flex items-center w-full justify-center">
-    <div className="flex flex-col lg:flex-row mt-10 lg:mt-20 w-[1100px] sm:px-10 lg:px-0 justify-center h-full items-center lg:items-stretch">
+    <div className="flex flex-col w-[1100px] lg:flex-row mt-10 lg:mt-20 mb-10 lg:mb-10 sm:px-10 lg:px-0 justify-center h-full items-center lg:items-stretch">
       <div className="w-5/6 lg:w-1/2 flex items-center">
         <Image
           src={ServicesImage}

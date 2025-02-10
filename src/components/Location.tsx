@@ -7,7 +7,7 @@ import { ThirdButton } from "./Button";
 
 const Location: FC = () => {
   return (
-    <div className="w-full flex flex-col lg:justify-start items-left overflow-clip mt-20 lg:rounded-t-[50px] bg-[#b8ccdc] items-center">
+    <div className="w-full flex flex-col lg:justify-start items-left overflow-clip lg:rounded-t-[50px] bg-[#b8ccdc] items-center">
       {/** Desktop version */}
       <div className="hidden lg:grid grid-cols-2 gap-[500px] mt-16">
         <div className="flex flex-col gap-16">

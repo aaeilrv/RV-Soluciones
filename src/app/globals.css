@@ -60,3 +60,39 @@ strong {
 .light {
   font-weight: 300;
 }
+
+/* Default styles (mobile) */
+.custom-gradients {
+  background:
+    radial-gradient(
+      circle at 50% 74%,
+      #b8ccdc 4%,
+      white 15%,
+      rgba(255, 0, 0, 0) 40%
+    ),
+    radial-gradient(
+      circle at 120% 40%,
+      #b8ccdc 1%,
+      white 15%,
+      rgba(255, 0, 0, 0) 30%
+    );
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .custom-gradients {
+    background:
+      radial-gradient(
+        circle at 50% 65%,
+        #718da9 1%,
+        white 20%,
+        rgba(113, 141, 169, 0) 40%
+      ),
+      radial-gradient(
+        circle at 120% 40%,
+        #718da9 1%,
+        white 20%,
+        rgba(0, 255, 0, 0) 30%
+      );
+  }
+}

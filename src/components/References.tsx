@@ -25,17 +25,19 @@ const images = [
 const References: FC = () => {
 
   return (
-    <div className="flex flex-col items-center justify-center w-full mt-10 md:mt-24">
+    <div className="w-full">
+      <div className="flex flex-col items-center justify-center mt-10 lg:mt-20 md:mt-8 mb-10">
       <h2 className="text-2xl md:text-2xl lg:text-5xl font-semibold text-[#718da9] text-center">
         <span className="hidden md:block text-2xl md:text-[2rem] lg:text-[2.8rem]">Clientes que ya confían en nuestros servicios</span>
         <span className="block md:hidden text-2xl">Clientes que ya confían<br />en nuestros servicios</span>
       </h2>
-      <div className="flex flex-wrap justify-center gap-2 w-[100%] lg:w-[60%] mt-4 md:mt-8">
+      <div className="flex flex-wrap justify-center gap-2 w-[100%] lg:w-[60%] mt-4">
         {images.map((image, index) => (
           <div className="h-18 lg:h-40 w-[28%] lg:w-60 flex items-center justify-center px-4 py-2" key={index}>
             <Image src={image.src} alt={image.alt} /> 
           </div>
         ))}
+      </div>
       </div>
     </div>
   )

@@ -11,7 +11,7 @@ import Location from "@/components/Location";
 
 export default function Home() {
   return (
-    <div className="bg-gray-100">
+    <div className="custom-gradients">
       <Hero/>
       <ContactCard/>
       <References/>
