@@ -4,8 +4,17 @@ import whiteLogo from "../assets/logo/RV-Soluciones-Blanco.png"
 import blueLogo from "../assets/logo/RV-Soluciones-Azul.png"
 import Image from 'next/image'
 import { ThirdButton } from "./Button";
+import { useRouter } from "next/navigation";
 
 const Location: FC = () => {
+  const router = useRouter()
+
+  const handleClick = () => {
+    console.log("???");
+    router.push('#contact');
+    console.log("hi")
+  };
+
   return (
     <div className="w-full flex flex-col lg:justify-start items-left overflow-clip lg:rounded-t-[50px] bg-[#b8ccdc] items-center">
       {/** Desktop version */}
@@ -65,7 +74,7 @@ const Location: FC = () => {
               <p>Calle Monseñor, Juan Grilc, Edif Los Milagros B, Piso Sótano Local S3 Urb Chacao, Caracas (Chacao), Miranda. Zona Postal 1060</p>
             </div>
           </div>
-          <ThirdButton onClick={() => console.log()}>Contáctenos Ahora</ThirdButton>
+          <ThirdButton onClick={handleClick}>Contáctenos Ahora</ThirdButton>
         </div>
         <p className="font-light text-black text-sm mb-10">Copyright RV Soluciones Profesionales</p>
       </div>

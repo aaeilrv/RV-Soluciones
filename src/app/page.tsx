@@ -10,6 +10,7 @@ import Facts from "@/components/Facts";
 import Location from "@/components/Location";
 
 export default function Home() {
+  
   return (
     <div className="custom-gradients">
       <Hero/>
