@@ -7,6 +7,7 @@ import Benefits from "@/components/Benefits";
 import Products from "@/components/Products";
 import Services from "@/components/Services";
 import Facts from "@/components/Facts";
+import Location from "@/components/Location";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Services/>
       <Facts/>
       <Products/>
+      <Location/>
     </div>
   );
 }

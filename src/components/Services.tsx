@@ -25,7 +25,7 @@ const Services: FC = () => {
           className="block lg:hidden object-cover h-full w-full rounded-t-xl"
         />
       </div>
-      <div className="flex flex-col gap-2 lg:gap-8 h-full w-5/6 lg:w-1/2 rounded-b-xl lg:rounded-l-none lg:rounded-r-3xl px-10 py-6 lg:px-16 lg:py-8 bg-white bg-opacity-50">
+      <div className="flex flex-col gap-2 lg:gap-8 h-full w-5/6 lg:w-1/2 rounded-b-xl lg:rounded-l-none lg:rounded-r-3xl px-10 py-6 lg:px-16 lg:py-8 bg-white bg-opacity-40">
         <h2 className="text-2xl md:text-[2rem] lg:text-[2.8rem] lg:mt-4 font-semibold text-[#718da9] lg:text-left">Servicios</h2>
         <div className="text-black font-light md:text-lg text-justify lg:text-left">
           <div className="block lg:hidden text-sm">
@@ -63,7 +63,7 @@ const Services: FC = () => {
             </div>
           </li>
         </ol>
-        <div className="mt-4 lg:mt-0">
+        <div className="mt-4 lg:mt-0 mb-2 lg:mb-4">
           <ThirdButton onClick={() => console.log("hi")}>Contáctenos Ahora</ThirdButton>
         </div>
       </div>
